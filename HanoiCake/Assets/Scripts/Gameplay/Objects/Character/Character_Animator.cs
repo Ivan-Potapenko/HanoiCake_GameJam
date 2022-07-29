@@ -40,6 +40,7 @@ namespace Gameplay
             if(_characterController.CurrentDirection.ToString()!= _direction)
             {
                 _characterController.transform.Rotate(0, 180, 0);
+                _direction = _characterController.CurrentDirection.ToString();
             }
         }
 
