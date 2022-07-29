@@ -46,6 +46,7 @@ namespace Gameplay {
             if ((_moveLeft && gameObject.transform.position.x <= _leftPoint.transform.position.x) ||
                 (!_moveLeft && gameObject.transform.position.x >= _rightPoint.transform.position.x)) {
                 _moveLeft = !_moveLeft;
+                transform.Rotate(0, 180, 0);
             }
         }
 
