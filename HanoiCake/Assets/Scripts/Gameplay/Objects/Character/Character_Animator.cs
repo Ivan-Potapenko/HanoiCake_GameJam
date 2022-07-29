@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Events;
 
 namespace Gameplay
 {
@@ -12,11 +13,37 @@ namespace Gameplay
         [SerializeField]
         private Animator _animatorLeg2;
 
+        [SerializeField]
+        private CharacterController _CharacterController;
+
+        [SerializeField]
+        private EventListener _updateEventListener;
+
+
+        private void OnEnable()
+        {
+            _updateEventListener.ActionsToDo += UpdateBehaviour;
+        }
+
+        private void OnDisable()
+        {
+            _updateEventListener.ActionsToDo -= UpdateBehaviour;
+        }
+
+
+        private void UpdateBehaviour()
+        {
+        }
+
+
         private void Start()
         {
             _animatorLeg1 = GetComponent<Animator>();
             _animatorLeg2 = GetComponent<Animator>();
         }
+
+
+
         private void StartWalkingAnimation()
         {
             _animatorLeg1.SetBool("leg_is_go",true);
