@@ -21,6 +21,8 @@ namespace Gameplay {
 
         private bool _bottomCharacterSelected = true;
 
+        private bool _freez = false;
+
         [SerializeField]
         private EventListener _updateEventListener;
 
@@ -30,13 +32,26 @@ namespace Gameplay {
         private void OnEnable() {
             _updateEventListener.ActionsToDo += UpdateBehaviour;
             _fixedUpdateEventListener.ActionsToDo += FixedUpdateBehaviour;
+            _bottomCharacterController.onDead += FreezOnBottomCharacter;
+            _topCharacterController.onDead += FreezOnTopCharacter;
         }
 
         private void OnDisable() {
             _updateEventListener.ActionsToDo -= UpdateBehaviour;
             _fixedUpdateEventListener.ActionsToDo -= FixedUpdateBehaviour;
+            _topCharacterController.onDead -= FreezOnTopCharacter;
+            _bottomCharacterController.onDead -= FreezOnBottomCharacter;
         }
 
+        private void FreezOnBottomCharacter() {
+            _bottomCharacterSelected = true;
+            _freez = true;
+        }
+
+        private void FreezOnTopCharacter() {
+            _bottomCharacterSelected = false;
+            _freez = true;
+        }
 
         private void UpdateBehaviour() {
             JumpInput();
@@ -48,7 +63,7 @@ namespace Gameplay {
         }
 
         private void ChangeCharacter() {
-            if (Input.GetKeyDown(KeyCode.Q)) {
+            if (Input.GetKeyDown(KeyCode.Q) && !_freez) {
                 _bottomCharacterSelected = !_bottomCharacterSelected;
                 onCurrentCharacterChange.Invoke();
             }

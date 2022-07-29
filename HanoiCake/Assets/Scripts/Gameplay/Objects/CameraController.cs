@@ -40,8 +40,6 @@ namespace Gameplay {
                 gameObject.transform.position.y, gameObject.transform.position.z);
         }
 
-
-
         private void OnEnable() {
             _characterInput.onCurrentCharacterChange += ChangeTrackedCharacter;
             _updateEventListener.ActionsToDo += UpdateBehaviour;
@@ -53,12 +51,15 @@ namespace Gameplay {
         }
 
         private void ChangeTrackedCharacter() {
+            if(_onChangeCoroutine) {
+                StopCoroutine(ChangeTrackedCharacterCoroutine());
+            }
             StartCoroutine(ChangeTrackedCharacterCoroutine());
         }
 
         private IEnumerator ChangeTrackedCharacterCoroutine() {
             _onChangeCoroutine = true;
-            var distanceToCharacter = gameObject.transform.position.x - _characterInput.CurrentCharacterController.transform.position.x;
+            var distanceToCharacter =Mathf.Abs(gameObject.transform.position.x - _characterInput.CurrentCharacterController.transform.position.x);
 
             while (Mathf.Abs(_characterInput.CurrentCharacterController.transform.position.x + _distanceToCharacter - gameObject.transform.position.x) > _maxDistanceDiff) {
                 var lerpStep = distanceToCharacter / (_characterSwitchTime / Time.deltaTime);
@@ -66,6 +67,10 @@ namespace Gameplay {
                     Mathf.Lerp(gameObject.transform.position.x, _characterInput.CurrentCharacterController.transform.position.x + _distanceToCharacter, lerpStep),
                     gameObject.transform.position.y, gameObject.transform.position.z);
                 yield return null;
+            }
+
+            if(_characterInput.CurrentCharacterController.IsDead) {
+                Time.timeScale = 0;
             }
 
             _onChangeCoroutine = false;
