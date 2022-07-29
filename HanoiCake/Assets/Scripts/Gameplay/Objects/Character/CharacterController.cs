@@ -115,7 +115,6 @@ namespace Gameplay {
         }
 
         private void SetMoveVelocity(float xSpeed) {
-            Debug.LogWarning(xSpeed);
             SetMoveVelocity(xSpeed, _rigidbody.velocity.y);
         }
 

@@ -14,12 +14,12 @@ namespace Gameplay
         [SerializeField]
         private Animator _animatorLeg2;
 
+        private string _direction = "Right";
+
         private CharacterController _characterController;
 
-        private void Start()
+        private void Awake()
         {
-            _animatorLeg1 = GetComponent<Animator>();
-            _animatorLeg2 = GetComponent<Animator>();
             _characterController = GetComponent<CharacterController>();
         }
 
@@ -37,12 +37,15 @@ namespace Gameplay
 
         private void UpdateDirestion()
         {
-
+            if(_characterController.CurrentDirection.ToString()!= _direction)
+            {
+                _characterController.transform.Rotate(0, 180, 0);
+            }
         }
 
         private void UpdateAnimation()
         {
-
+          
             if (_characterController.CurrentState.ToString() == "MoveOnGround")
             {
                 StartWalkingAnimation();
