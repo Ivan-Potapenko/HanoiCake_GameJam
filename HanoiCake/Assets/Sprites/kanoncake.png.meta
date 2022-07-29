@@ -1,0 +1,1498 @@
+fileFormatVersion: 2
+guid: c6be50d8903b6924cbc01be33047f137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6818006648860782953
+    second: kanoncake_0
+  - first:
+      213: 4127623569344246684
+    second: kanoncake_1
+  - first:
+      213: 3097812215291486619
+    second: kanoncake_2
+  - first:
+      213: -4978112540166899818
+    second: kanoncake_3
+  - first:
+      213: -3322856029007789353
+    second: kanoncake_4
+  - first:
+      213: 737076222047471842
+    second: kanoncake_5
+  - first:
+      213: 3474146320436854125
+    second: kanoncake_6
+  - first:
+      213: -7146653276927651830
+    second: kanoncake_8
+  - first:
+      213: -845711365919034656
+    second: kanoncake_9
+  - first:
+      213: 2258540969278193788
+    second: kanoncake_10
+  - first:
+      213: -4503950107679300518
+    second: kanoncake_11
+  - first:
+      213: -3776279455542495479
+    second: kanoncake_13
+  - first:
+      213: 5225929071471135929
+    second: kanoncake_14
+  - first:
+      213: -402932127690083161
+    second: kanoncake_15
+  - first:
+      213: 4373941839047631722
+    second: kanoncake_16
+  - first:
+      213: -6620806059834786893
+    second: kanoncake_17
+  - first:
+      213: -4263594370118741083
+    second: kanoncake_18
+  - first:
+      213: 8906300251111395400
+    second: kanoncake_19
+  - first:
+      213: 5392471673545061980
+    second: kanoncake_20
+  - first:
+      213: -3502753408041717026
+    second: kanoncake_21
+  - first:
+      213: -724254754509570444
+    second: kanoncake_22
+  - first:
+      213: 1731427045089868205
+    second: kanoncake_24
+  - first:
+      213: -3311645016155363279
+    second: kanoncake_25
+  - first:
+      213: 3032348421559372524
+    second: kanoncake_26
+  - first:
+      213: -5500866077120978259
+    second: kanoncake_27
+  - first:
+      213: -3049979546809302759
+    second: kanoncake_30
+  - first:
+      213: 3619352745046586475
+    second: kanoncake_32
+  - first:
+      213: -5336774672283027012
+    second: kanoncake_33
+  - first:
+      213: 7828859937535404131
+    second: kanoncake_34
+  - first:
+      213: -8257648580654916076
+    second: kanoncake_35
+  - first:
+      213: -4779906032652709691
+    second: kanoncake_36
+  - first:
+      213: -470757058117690424
+    second: kanoncake_37
+  - first:
+      213: 8764796178131892283
+    second: kanoncake_38
+  - first:
+      213: -7615461605092087682
+    second: kanoncake_39
+  - first:
+      213: 8169850780531033648
+    second: kanoncake_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kanoncake_0
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2405
+        width: 560
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec66283139161a0800000000000000
+      internalID: -6818006648860782953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_1
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 2489
+        width: 333
+        height: 207
+      alignment: 9
+      pivot: {x: 0.09407772, y: 0.8623401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c933b4964c3484930800000000000000
+      internalID: 4127623569344246684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_2
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2436
+        width: 146
+        height: 267
+      alignment: 9
+      pivot: {x: 0.219755, y: 0.89618903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91a0510cc3adfa20800000000000000
+      internalID: 3097812215291486619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_3
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 2458
+        width: 236
+        height: 255
+      alignment: 9
+      pivot: {x: 0.8673168, y: 0.8940305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6973f6715013aeab0800000000000000
+      internalID: -4978112540166899818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_4
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 2580
+        width: 333
+        height: 124
+      alignment: 9
+      pivot: {x: 0.9087618, y: 0.77443177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2c93ffb08d2e1d0800000000000000
+      internalID: -3322856029007789353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_5
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 2521
+        width: 778
+        height: 276
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8c6833bee9a3a00800000000000000
+      internalID: 737076222047471842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1950
+        width: 677
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d7e5feba5a63030800000000000000
+      internalID: 3474146320436854125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_8
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 2073
+        width: 67
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0098df85bcf1dc90800000000000000
+      internalID: -7146653276927651830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_9
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 2070
+        width: 66
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2b2e35efd6344f0800000000000000
+      internalID: -845711365919034656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_10
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2067
+        width: 66
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c704e789b03f75f10800000000000000
+      internalID: 2258540969278193788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_11
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2031
+        width: 337
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5461b17d31ce71c0800000000000000
+      internalID: -4503950107679300518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_13
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 2111
+        width: 792
+        height: 275
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b8cfb7d5f79bc0800000000000000
+      internalID: -3776279455542495479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_14
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 2077
+        width: 66
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc8c666dca368840800000000000000
+      internalID: 5225929071471135929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1420
+        width: 836
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b07c5d5f786af0800000000000000
+      internalID: -402932127690083161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_16
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1673
+        width: 651
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6327a0bdec53bc30800000000000000
+      internalID: 4373941839047631722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_17
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 1677
+        width: 651
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb3bc497fb2e14a0800000000000000
+      internalID: -6620806059834786893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_18
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 1736
+        width: 778
+        height: 274
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a397b6828ba4d4c0800000000000000
+      internalID: -4263594370118741083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_19
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1417
+        width: 651
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840977a04e8899b70800000000000000
+      internalID: 8906300251111395400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_20
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 1422
+        width: 651
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c567203aa68e5da40800000000000000
+      internalID: 5392471673545061980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_21
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1344
+        width: 791
+        height: 279
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed272e17558b36fc0800000000000000
+      internalID: -3502753408041717026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_22
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1212
+        width: 276
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47eb196532ee2f5f0800000000000000
+      internalID: -724254754509570444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_24
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1016
+        width: 730
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9f51959b3470810800000000000000
+      internalID: 1731427045089868205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_25
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 565
+        width: 460
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138edd5576caa02d0800000000000000
+      internalID: -3311645016155363279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_26
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 542
+        width: 260
+        height: 583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea4346c2d0151a20800000000000000
+      internalID: 3032348421559372524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_27
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 711
+        width: 6
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2253c927ff8a3b0800000000000000
+      internalID: -5500866077120978259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_30
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 876
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911893cf2cb4ca5d0800000000000000
+      internalID: -3049979546809302759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_32
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 842
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64365d35268a3230800000000000000
+      internalID: 3619352745046586475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 603
+        width: 438
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9b44406b7ffe5b0800000000000000
+      internalID: -5336774672283027012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_34
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 462
+        width: 687
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368a51552a2b5ac60800000000000000
+      internalID: 7828859937535404131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 451
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e1e06ed50f66d80800000000000000
+      internalID: -8257648580654916076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 229
+        width: 583
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c01dffc9cc5aadb0800000000000000
+      internalID: -4779906032652709691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_37
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 225
+        width: 411
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb136723f88779f0800000000000000
+      internalID: -470757058117690424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_38
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 18
+        width: 508
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38b046afafc2a970800000000000000
+      internalID: 8764796178131892283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_39
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 114
+        width: 451
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e782cd3c402705690800000000000000
+      internalID: -7615461605092087682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kanoncake_40
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 113
+        width: 508
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0360089cff3216170800000000000000
+      internalID: 8169850780531033648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -1927.1486, y: -1000.95245}
+      - {x: -1927.1486, y: -1199.0477}
+      - {x: -1711.963, y: -1484.762}
+      - {x: -1536.7676, y: -1484.762}
+      - {x: -1470.1172, y: -1288.5715}
+      - {x: -1470.1172, y: -1010.47626}
+      - {x: -1479.6387, y: -1000.95245}
+    - - {x: -813.13477, y: -1012.381}
+      - {x: -813.13477, y: -1355.2382}
+      - {x: -776.9531, y: -1484.762}
+      - {x: -401.80664, y: -1484.762}
+      - {x: -369.4336, y: -1471.4286}
+      - {x: -298.9746, y: -1220}
+      - {x: -298.9746, y: -1012.381}
+    - - {x: 72.36328, y: -1431.4286}
+      - {x: 68.55469, y: -1433.3334}
+      - {x: 68.55469, y: -1446.6667}
+      - {x: 79.98047, y: -1446.6667}
+      - {x: 89.50195, y: -1440.9524}
+      - {x: 89.50195, y: -1431.4286}
+    - - {x: 428.46683, y: -1393.3334}
+      - {x: 430.37112, y: -1399.0477}
+      - {x: 437.9883, y: -1399.0477}
+      - {x: 441.7969, y: -1395.2382}
+      - {x: 439.8926, y: -1389.5239}
+      - {x: 432.27542, y: -1389.5239}
+    - - {x: 102.83203, y: -1383.8096}
+      - {x: 104.736336, y: -1389.5239}
+      - {x: 110.44923, y: -1389.5239}
+      - {x: 114.25782, y: -1385.7144}
+      - {x: 112.35352, y: -1380.0001}
+      - {x: 106.64063, y: -1380.0001}
+    - - {x: 289.45312, y: -1376.1906}
+      - {x: 289.45312, y: -1389.5239}
+      - {x: 356.10352, y: -1389.5239}
+      - {x: 363.7207, y: -1381.9048}
+      - {x: 363.7207, y: -1376.1906}
+    - - {x: -194.23828, y: -1117.143}
+      - {x: -196.14258, y: -1124.762}
+      - {x: -196.14258, y: -1263.8096}
+      - {x: -60.937504, y: -1368.5715}
+      - {x: 78.07617, y: -1374.2858}
+      - {x: 260.88867, y: -1374.2858}
+      - {x: 260.88867, y: -1130.4762}
+      - {x: 249.4629, y: -1117.143}
+    - - {x: 782.666, y: -1124.762}
+      - {x: 717.9199, y: -1122.8572}
+      - {x: 283.74023, y: -1122.8572}
+      - {x: 283.74023, y: -1372.381}
+      - {x: 664.5996, y: -1372.381}
+      - {x: 797.9004, y: -1263.8096}
+      - {x: 797.9004, y: -1140}
+      - {x: 794.0918, y: -1126.6667}
+    - - {x: -1268.2617, y: -1265.7144}
+      - {x: -1272.0703, y: -1269.5239}
+      - {x: -1270.166, y: -1275.2382}
+      - {x: -1213.0371, y: -1277.143}
+      - {x: -1094.9707, y: -1279.0477}
+      - {x: -855.02936, y: -1279.0477}
+      - {x: -853.12506, y: -1273.3334}
+      - {x: -853.12506, y: -1267.6191}
+      - {x: -856.93365, y: -1265.7144}
+    - - {x: -807.4219, y: -1269.5239}
+      - {x: -807.4219, y: -1273.3334}
+      - {x: -805.5176, y: -1277.143}
+      - {x: -736.9629, y: -1277.143}
+      - {x: -733.1543, y: -1269.5239}
+      - {x: -735.0586, y: -1263.8096}
+      - {x: -761.71875, y: -1263.8096}
+      - {x: -803.6133, y: -1265.7144}
+    - - {x: -1293.0176, y: -1269.5239}
+      - {x: -1291.1133, y: -1275.2382}
+      - {x: -1281.5918, y: -1275.2382}
+      - {x: -1277.7832, y: -1271.4286}
+      - {x: -1279.6875, y: -1265.7144}
+      - {x: -1289.209, y: -1265.7144}
+    - - {x: -1165.4297, y: -1006.6667}
+      - {x: -1426.3184, y: -1006.6667}
+      - {x: -1435.8398, y: -1012.381}
+      - {x: -1439.6484, y: -1109.5238}
+      - {x: -1439.6484, y: -1261.9048}
+      - {x: -851.22076, y: -1261.9048}
+      - {x: -851.22076, y: -1012.381}
+      - {x: -856.93365, y: -1008.5715}
+    - - {x: 356.10352, y: -860.00006}
+      - {x: 312.3047, y: -919.04767}
+      - {x: 312.3047, y: -960.95245}
+      - {x: 331.34766, y: -964.76196}
+      - {x: 340.86914, y: -962.8572}
+      - {x: 335.15625, y: -964.76196}
+      - {x: 329.44336, y: -970.47626}
+      - {x: 278.02734, y: -957.1429}
+      - {x: 295.16602, y: -915.23816}
+      - {x: 272.31445, y: -860.00006}
+      - {x: 169.48242, y: -860.00006}
+      - {x: 127.5879, y: -905.71436}
+      - {x: 129.49219, y: -936.1905}
+      - {x: 135.20508, y: -968.5715}
+      - {x: 97.11914, y: -860.00006}
+      - {x: -72.36328, y: -860.00006}
+      - {x: -119.97071, y: -879.04767}
+      - {x: -119.97071, y: -1040.9524}
+      - {x: 519.87305, y: -1040.9524}
+      - {x: 573.19336, y: -1012.381}
+      - {x: 573.19336, y: -869.52386}
+      - {x: 557.959, y: -860.00006}
+    - - {x: -493.21292, y: -1012.381}
+      - {x: -487.50003, y: -1010.47626}
+      - {x: -487.50003, y: -1004.76196}
+      - {x: -493.21292, y: -1002.8572}
+      - {x: -497.0215, y: -1006.6667}
+    - - {x: -493.21292, y: -372.38098}
+      - {x: -495.11722, y: -400.9524}
+      - {x: -495.11722, y: -945.71436}
+      - {x: -493.21292, y: -960.95245}
+      - {x: -241.84572, y: -960.95245}
+      - {x: -241.84572, y: -378.09525}
+      - {x: -245.65431, y: -372.38098}
+    - - {x: -860.74225, y: -467.61908}
+      - {x: -1047.3633, y: -686.6667}
+      - {x: -1047.3633, y: -938.0953}
+      - {x: -830.2735, y: -938.0953}
+      - {x: -708.39844, y: -930.47626}
+      - {x: -580.81055, y: -820.00006}
+      - {x: -580.81055, y: -467.61908}
+    - - {x: -1388.2324, y: -673.3334}
+      - {x: -1662.4513, y: -673.3334}
+      - {x: -1662.4513, y: -818.0953}
+      - {x: -1618.6523, y: -900.00006}
+      - {x: -1319.6777, y: -900.00006}
+      - {x: -1218.75, y: -850.47626}
+      - {x: -1218.75, y: -686.6667}
+      - {x: -1232.0801, y: -677.1429}
+    - - {x: -238.03712, y: -810.47626}
+      - {x: -234.22853, y: -814.28577}
+      - {x: -228.51564, y: -812.381}
+      - {x: -228.51564, y: -800.9524}
+      - {x: -232.32423, y: -797.1429}
+      - {x: -238.03712, y: -799.04767}
+    - - {x: -238.03712, y: -374.28574}
+      - {x: -238.03712, y: -793.3334}
+      - {x: -228.51564, y: -793.3334}
+      - {x: -226.61134, y: -791.4286}
+      - {x: -224.70705, y: -572.381}
+      - {x: -224.70705, y: -376.1905}
+      - {x: -226.61134, y: -374.28574}
+    - - {x: -519.87305, y: -639.04767}
+      - {x: -523.68164, y: -642.8572}
+      - {x: -523.68164, y: -656.1905}
+      - {x: -517.96875, y: -661.9048}
+      - {x: -508.4473, y: -661.9048}
+      - {x: -508.4473, y: -644.76196}
+      - {x: -516.06445, y: -639.04767}
+    - - {x: -571.28906, y: -614.28577}
+      - {x: -575.09766, y: -618.0953}
+      - {x: -575.09766, y: -623.8096}
+      - {x: -571.28906, y: -627.6191}
+      - {x: -567.48047, y: -627.6191}
+      - {x: -563.6719, y: -623.8096}
+      - {x: -563.6719, y: -618.0953}
+      - {x: -567.48047, y: -614.28577}
+    - - {x: -1696.7286, y: -237.14287}
+      - {x: -1696.7286, y: -338.09525}
+      - {x: -1652.9297, y: -460.00003}
+      - {x: -1597.7051, y: -486.6667}
+      - {x: -1102.5879, y: -486.6667}
+      - {x: -959.7657, y: -461.9048}
+      - {x: -959.7657, y: -237.14287}
+    - - {x: -1491.0645, y: -479.04764}
+      - {x: -1489.1602, y: -482.85718}
+      - {x: -1479.6387, y: -482.85718}
+      - {x: -1479.6387, y: -473.33334}
+      - {x: -1481.543, y: -471.4286}
+      - {x: -1487.2559, y: -471.4286}
+      - {x: -1491.0645, y: -473.33334}
+    - - {x: -801.709, y: -200.9524}
+      - {x: -801.709, y: -290.4762}
+      - {x: -519.87305, y: -290.4762}
+      - {x: -519.87305, y: -200.9524}
+    - - {x: -1454.8828, y: -244.76192}
+      - {x: -1449.1699, y: -242.85715}
+      - {x: -1449.1699, y: -237.14287}
+      - {x: -1454.8828, y: -235.23811}
+      - {x: -1458.6914, y: -239.04762}
+    - - {x: -506.543, y: -200.9524}
+      - {x: -510.3516, y: -204.76192}
+      - {x: -510.3516, y: -212.38097}
+      - {x: -506.543, y: -216.19049}
+      - {x: -495.11722, y: -216.19049}
+      - {x: -491.30862, y: -214.28572}
+      - {x: -491.30862, y: -206.66667}
+      - {x: -493.21292, y: -200.9524}
+    - - {x: 1228.2715, y: -159.04762}
+      - {x: 1312.0605, y: -159.04762}
+      - {x: 1321.582, y: -136.19048}
+      - {x: 1293.0176, y: -124.76191}
+      - {x: 1338.7207, y: -119.04762}
+      - {x: 1382.5195, y: -159.04762}
+      - {x: 1582.4707, y: -159.04762}
+      - {x: 1723.3888, y: -35.2381}
+      - {x: 1723.3888, y: 58.09524}
+      - {x: 1620.5566, y: 126.66667}
+      - {x: 1024.5117, y: 126.66667}
+      - {x: 986.42584, y: 122.85715}
+      - {x: 927.39264, y: 29.523811}
+      - {x: 927.39264, y: -159.04762}
+      - {x: 1186.377, y: -159.04762}
+      - {x: 1193.9941, y: -140}
+      - {x: 1178.7598, y: -130.4762}
+      - {x: 1209.2285, y: -124.76191}
+    - - {x: 1439.6484, y: -124.76191}
+      - {x: 1437.7441, y: -122.85715}
+      - {x: 1430.127, y: -122.85715}
+      - {x: 1428.2227, y: -120.952385}
+      - {x: 1418.7012, y: -120.952385}
+      - {x: 1420.6055, y: -115.2381}
+      - {x: 1422.5098, y: -113.333336}
+      - {x: 1424.4141, y: -113.333336}
+      - {x: 1433.9355, y: -105.71429}
+      - {x: 1435.8398, y: -100.00001}
+      - {x: 1435.8398, y: -92.38096}
+      - {x: 1443.457, y: -109.52381}
+      - {x: 1443.457, y: -113.333336}
+      - {x: 1447.2656, y: -119.04762}
+      - {x: 1449.1699, y: -128.57144}
+      - {x: 1447.2656, y: -126.66667}
+    - - {x: -565.5762, y: 120.952385}
+      - {x: -565.5762, y: -86.66667}
+      - {x: 76.171875, y: -86.66667}
+      - {x: 91.40625, y: -77.14286}
+      - {x: 91.40625, y: 120.952385}
+    - - {x: -1624.3652, y: 366.6667}
+      - {x: -1710.0587, y: 332.38098}
+      - {x: -1710.0587, y: 2.857143}
+      - {x: -1702.4415, y: -60.000004}
+      - {x: -1683.3986, y: -82.85715}
+      - {x: -946.4356, y: -82.85715}
+      - {x: -868.35944, y: -73.333336}
+      - {x: -868.35944, y: 340.00003}
+      - {x: -1028.3203, y: 366.6667}
+    - - {x: 159.96094, y: 124.76191}
+      - {x: 159.96094, y: -75.2381}
+      - {x: 173.29102, y: -80.952385}
+      - {x: 816.94336, y: -80.952385}
+      - {x: 816.94336, y: 124.76191}
+    - - {x: -946.4356, y: -39.047623}
+      - {x: -940.7227, y: -37.14286}
+      - {x: -940.7227, y: -31.428574}
+      - {x: -946.4356, y: -29.523811}
+      - {x: -950.2442, y: -33.333336}
+    - - {x: 78.07617, y: 372.38098}
+      - {x: -22.851562, y: 378.09525}
+      - {x: -270.41016, y: 378.09525}
+      - {x: -557.959, y: 374.28574}
+      - {x: -573.19336, y: 362.85715}
+      - {x: -573.19336, y: 181.90477}
+      - {x: -556.0547, y: 170.4762}
+      - {x: 70.458984, y: 170.4762}
+      - {x: 83.78906, y: 174.28572}
+      - {x: 83.78906, y: 368.57144}
+    - - {x: 797.9004, y: 381.9048}
+      - {x: 144.72656, y: 381.9048}
+      - {x: 144.72656, y: 176.19049}
+      - {x: 161.86523, y: 174.28572}
+      - {x: 799.8047, y: 174.28572}
+      - {x: 801.709, y: 199.04762}
+      - {x: 801.709, y: 380.00003}
+    - - {x: 1576.7578, y: 233.33334}
+      - {x: 1706.2501, y: 300}
+      - {x: 1706.2501, y: 509.52383}
+      - {x: 1704.3458, y: 513.3334}
+      - {x: 1001.6602, y: 513.3334}
+      - {x: 921.67975, y: 383.80954}
+      - {x: 921.67975, y: 233.33334}
+      - {x: 1321.582, y: 233.33334}
+      - {x: 1323.4863, y: 242.85715}
+      - {x: 1319.6777, y: 263.80954}
+      - {x: 1342.5293, y: 233.33334}
+    - - {x: 1428.2227, y: 261.9048}
+      - {x: 1418.7012, y: 265.7143}
+      - {x: 1405.3711, y: 269.52383}
+      - {x: 1393.9453, y: 267.61905}
+      - {x: 1405.3711, y: 275.2381}
+      - {x: 1412.9883, y: 282.85715}
+      - {x: 1412.9883, y: 288.57144}
+      - {x: 1420.6055, y: 279.04764}
+      - {x: 1430.127, y: 265.7143}
+      - {x: 1432.0312, y: 256.1905}
+      - {x: 1432.0312, y: 258.09525}
+    - - {x: -1599.6094, y: 793.3334}
+      - {x: -1624.3652, y: 764.76196}
+      - {x: -1624.3652, y: 475.23813}
+      - {x: -1544.3848, y: 446.6667}
+      - {x: -940.7227, y: 446.6667}
+      - {x: -940.7227, y: 793.3334}
+    - - {x: 466.55276, y: 894.28577}
+      - {x: 449.4141, y: 894.28577}
+      - {x: 439.8926, y: 884.76196}
+      - {x: 369.4336, y: 894.28577}
+      - {x: 218.99416, y: 894.28577}
+      - {x: 180.9082, y: 877.1429}
+      - {x: 165.67383, y: 764.76196}
+      - {x: 165.67383, y: 663.8096}
+      - {x: 217.08986, y: 540}
+      - {x: 253.2715, y: 528.5715}
+      - {x: 344.67773, y: 528.5715}
+      - {x: 493.21292, y: 614.28577}
+      - {x: 510.3516, y: 698.0953}
+      - {x: 510.3516, y: 863.8096}
+    - - {x: 278.02734, y: 557.1429}
+      - {x: 279.93164, y: 553.3334}
+      - {x: 295.16602, y: 553.3334}
+      - {x: 295.16602, y: 555.2381}
+      - {x: 283.74023, y: 557.1429}
+    - - {x: -281.83594, y: 793.3334}
+      - {x: -304.6875, y: 793.3334}
+      - {x: -331.34766, y: 766.6667}
+      - {x: -331.34766, y: 562.8572}
+      - {x: -270.41016, y: 562.8572}
+      - {x: -262.79297, y: 564.7619}
+      - {x: -257.08008, y: 574.28577}
+      - {x: -257.08008, y: 745.7143}
+      - {x: -270.41016, y: 789.52386}
+    - - {x: -422.75394, y: 793.3334}
+      - {x: -439.8926, y: 762.8572}
+      - {x: -439.8926, y: 566.6667}
+      - {x: -367.5293, y: 566.6667}
+      - {x: -367.5293, y: 791.4286}
+      - {x: -369.4336, y: 793.3334}
+    - - {x: -508.4473, y: 789.52386}
+      - {x: -554.1504, y: 764.76196}
+      - {x: -557.959, y: 743.8096}
+      - {x: -557.959, y: 570.4762}
+      - {x: -483.69144, y: 570.4762}
+      - {x: -483.69144, y: 789.52386}
+    - - {x: -636.03516, y: 781.9048}
+      - {x: -658.8867, y: 781.9048}
+      - {x: -683.6426, y: 749.52386}
+      - {x: -683.6426, y: 574.28577}
+      - {x: -618.8965, y: 574.28577}
+      - {x: -611.2793, y: 581.9048}
+      - {x: -611.2793, y: 631.4286}
+      - {x: -615.0879, y: 736.1905}
+    - - {x: 279.93164, y: 581.9048}
+      - {x: 281.83594, y: 580}
+      - {x: 285.64453, y: 583.8096}
+      - {x: 293.26172, y: 583.8096}
+      - {x: 304.6875, y: 587.6191}
+      - {x: 310.4004, y: 591.4286}
+      - {x: 319.92188, y: 599.04767}
+      - {x: 321.82617, y: 604.7619}
+      - {x: 321.82617, y: 614.28577}
+      - {x: 319.92188, y: 620}
+      - {x: 312.3047, y: 625.7143}
+      - {x: 308.4961, y: 623.8096}
+      - {x: 314.20898, y: 621.9048}
+      - {x: 318.01758, y: 623.8096}
+      - {x: 318.01758, y: 610.4762}
+      - {x: 325.63477, y: 602.8572}
+      - {x: 331.34766, y: 602.8572}
+      - {x: 340.86914, y: 608.5715}
+      - {x: 342.77344, y: 614.28577}
+      - {x: 342.77344, y: 620}
+      - {x: 340.86914, y: 621.9048}
+      - {x: 342.77344, y: 629.52386}
+      - {x: 348.48633, y: 635.2381}
+      - {x: 352.29492, y: 644.76196}
+      - {x: 350.39062, y: 648.5715}
+      - {x: 356.10352, y: 644.76196}
+      - {x: 373.2422, y: 639.04767}
+      - {x: 380.85938, y: 639.04767}
+      - {x: 373.2422, y: 631.4286}
+      - {x: 365.625, y: 629.52386}
+      - {x: 354.19922, y: 618.0953}
+      - {x: 352.29492, y: 612.381}
+      - {x: 344.67773, y: 606.6667}
+      - {x: 342.77344, y: 600.9524}
+      - {x: 342.77344, y: 593.3334}
+      - {x: 333.25195, y: 587.6191}
+      - {x: 329.44336, y: 587.6191}
+      - {x: 327.53906, y: 585.7143}
+      - {x: 316.11328, y: 585.7143}
+      - {x: 306.5918, y: 583.8096}
+      - {x: 304.6875, y: 581.9048}
+      - {x: 289.45312, y: 581.9048}
+      - {x: 287.54883, y: 583.8096}
+    - - {x: 255.1758, y: 595.2381}
+      - {x: 247.55861, y: 600.9524}
+      - {x: 247.55861, y: 604.7619}
+      - {x: 251.3672, y: 610.4762}
+      - {x: 258.98438, y: 618.0953}
+      - {x: 258.98438, y: 629.52386}
+      - {x: 255.1758, y: 635.2381}
+      - {x: 255.1758, y: 639.04767}
+      - {x: 255.1758, y: 629.52386}
+      - {x: 264.69727, y: 620}
+      - {x: 266.60156, y: 621.9048}
+      - {x: 260.88867, y: 618.0953}
+      - {x: 258.98438, y: 612.381}
+      - {x: 258.98438, y: 591.4286}
+      - {x: 264.69727, y: 587.6191}
+      - {x: 264.69727, y: 591.4286}
+    - - {x: 279.93164, y: 600.9524}
+      - {x: 281.83594, y: 602.8572}
+      - {x: 281.83594, y: 608.5715}
+      - {x: 289.45312, y: 608.5715}
+      - {x: 291.35742, y: 606.6667}
+      - {x: 281.83594, y: 599.04767}
+    - - {x: 1334.9121, y: 616.1905}
+      - {x: 1344.4336, y: 608.5715}
+      - {x: 1479.6387, y: 608.5715}
+      - {x: 1483.4473, y: 623.8096}
+      - {x: 1470.1172, y: 633.3334}
+      - {x: 1458.6914, y: 640.9524}
+      - {x: 1691.0157, y: 720.9524}
+      - {x: 1698.6329, y: 738.0953}
+      - {x: 1698.6329, y: 814.28577}
+      - {x: 1671.9728, y: 888.5715}
+      - {x: 1072.1191, y: 888.5715}
+      - {x: 900.7325, y: 846.6667}
+      - {x: 900.7325, y: 688.5715}
+      - {x: 957.8614, y: 646.6667}
+      - {x: 1026.416, y: 663.8096}
+      - {x: 1051.1719, y: 690.4762}
+      - {x: 1062.5977, y: 717.1429}
+      - {x: 1131.1523, y: 608.5715}
+      - {x: 1329.1992, y: 608.5715}
+      - {x: 1333.0078, y: 629.52386}
+      - {x: 1300.6348, y: 642.8572}
+      - {x: 1336.8164, y: 627.6191}
+    - - {x: 1388.2324, y: 644.76196}
+      - {x: 1378.7109, y: 644.76196}
+      - {x: 1380.6152, y: 646.6667}
+      - {x: 1382.5195, y: 654.28577}
+      - {x: 1386.3281, y: 658.0953}
+      - {x: 1388.2324, y: 658.0953}
+      - {x: 1395.8496, y: 639.04767}
+      - {x: 1395.8496, y: 640.9524}
+    - - {x: 283.74023, y: 644.76196}
+      - {x: 285.64453, y: 644.76196}
+      - {x: 283.74023, y: 644.76196}
+      - {x: 281.83594, y: 642.8572}
+      - {x: 283.74023, y: 642.8572}
+    - - {x: 321.82617, y: 658.0953}
+      - {x: 327.53906, y: 660}
+      - {x: 329.44336, y: 656.1905}
+      - {x: 327.53906, y: 658.0953}
+    - - {x: 1576.7578, y: 719.04767}
+      - {x: 1582.4707, y: 713.3334}
+      - {x: 1584.375, y: 713.3334}
+      - {x: 1590.0879, y: 719.04767}
+      - {x: 1588.1836, y: 724.76196}
+      - {x: 1578.6621, y: 724.76196}
+    - - {x: 516.06445, y: 791.4286}
+      - {x: 512.25586, y: 789.52386}
+      - {x: 506.543, y: 759.04767}
+      - {x: 506.543, y: 755.23816}
+      - {x: 510.3516, y: 751.4286}
+      - {x: 516.06445, y: 753.3334}
+      - {x: 525.58594, y: 768.5715}
+      - {x: 525.58594, y: 791.4286}
+    - - {x: -1449.1699, y: 1193.3334}
+      - {x: -1584.375, y: 1180}
+      - {x: -1584.375, y: 945.71436}
+      - {x: -1561.5234, y: 901.9048}
+      - {x: -1146.3867, y: 901.9048}
+      - {x: -1016.8946, y: 911.4286}
+      - {x: -1016.8946, y: 1162.8572}
+      - {x: -1094.9707, y: 1193.3334}
+    - - {x: -281.83594, y: 1206.6667}
+      - {x: -293.26172, y: 1200.9524}
+      - {x: -293.26172, y: 1016.19055}
+      - {x: -272.31445, y: 934.28577}
+      - {x: -148.53516, y: 934.28577}
+      - {x: -144.72656, y: 936.1905}
+      - {x: -140.91797, y: 953.3334}
+      - {x: -140.91797, y: 1098.0953}
+      - {x: -220.89845, y: 1206.6667}
+    - - {x: 118.066414, y: 1216.1906}
+      - {x: -41.89453, y: 1101.9048}
+      - {x: -41.89453, y: 997.1429}
+      - {x: -28.564455, y: 987.6191}
+      - {x: 32.373047, y: 955.23816}
+      - {x: 51.416016, y: 955.23816}
+      - {x: 127.5879, y: 1018.0953}
+      - {x: 199.95117, y: 1140}
+      - {x: 199.95117, y: 1216.1906}
+    - - {x: -674.1211, y: 1199.0477}
+      - {x: -679.834, y: 1197.143}
+      - {x: -679.834, y: 1130.4762}
+      - {x: -460.83987, y: 985.71436}
+      - {x: -407.51953, y: 985.71436}
+      - {x: -394.18945, y: 987.6191}
+      - {x: -340.86914, y: 1025.7144}
+      - {x: -340.86914, y: 1061.9048}
+      - {x: -584.61914, y: 1199.0477}
+    - - {x: 1333.0078, y: 1018.0953}
+      - {x: 1390.1367, y: 1018.0953}
+      - {x: 1405.3711, y: 1023.8096}
+      - {x: 1384.4238, y: 1056.1906}
+      - {x: 1399.6582, y: 1033.3334}
+      - {x: 1428.2227, y: 1025.7144}
+      - {x: 1492.9688, y: 1046.6667}
+      - {x: 1489.1602, y: 1067.6191}
+      - {x: 1470.1172, y: 1073.3334}
+      - {x: 1452.9785, y: 1071.4286}
+      - {x: 1576.7578, y: 1109.5238}
+      - {x: 1685.3029, y: 1147.6191}
+      - {x: 1685.3029, y: 1273.3334}
+      - {x: 1588.1836, y: 1300}
+      - {x: 1014.9903, y: 1300}
+      - {x: 976.90436, y: 1260}
+      - {x: 900.7325, y: 1157.143}
+      - {x: 900.7325, y: 1061.9048}
+      - {x: 923.58405, y: 1050.4762}
+      - {x: 999.7559, y: 1040.9524}
+      - {x: 1058.7891, y: 1088.5715}
+      - {x: 1062.5977, y: 1109.5238}
+      - {x: 1074.0234, y: 1069.5238}
+      - {x: 1043.5547, y: 1018.0953}
+      - {x: 1317.7734, y: 1018.0953}
+      - {x: 1319.6777, y: 1021.9048}
+      - {x: 1306.3477, y: 1052.381}
+      - {x: 1319.6777, y: 1025.7144}
+    - - {x: 329.44336, y: 1206.6667}
+      - {x: 283.74023, y: 1134.2858}
+      - {x: 283.74023, y: 1077.143}
+      - {x: 535.1074, y: 1077.143}
+      - {x: 622.7051, y: 1134.2858}
+      - {x: 622.7051, y: 1206.6667}
+    - - {x: 485.59573, y: 1151.4286}
+      - {x: 479.88284, y: 1145.7144}
+      - {x: 479.88284, y: 1143.8096}
+      - {x: 483.69144, y: 1140}
+      - {x: 487.50003, y: 1140}
+      - {x: 491.30862, y: 1143.8096}
+      - {x: 491.30862, y: 1147.6191}
+      - {x: 487.50003, y: 1151.4286}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
