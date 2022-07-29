@@ -244,6 +244,8 @@ namespace Gameplay {
             }
         }
 
+        public Action isJump = delegate { };
+
         public void Jump() {
             if (CurrentState == CharacterState.Ñlimb) {
                 var reverseDirection = GetReverseDirection(_currentDirection);
@@ -253,6 +255,7 @@ namespace Gameplay {
             } else if (_isGrounded) {
                 Jump(Vector2.up, _characterData.JumpForce);
             }
+            isJump?.Invoke();
         }
 
         public void Jump(Vector2 jumpVector, float jumpForce) {

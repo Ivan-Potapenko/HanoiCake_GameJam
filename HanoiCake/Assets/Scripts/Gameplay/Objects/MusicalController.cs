@@ -10,6 +10,9 @@ namespace Gameplay
         [SerializeField]
         private AudioSource _audioSorceForFall;
 
+        [SerializeField]
+        private AudioSource _audioSorceForJump;
+
         private CharacterController _characterController;
         private void Awake()
         {
@@ -18,17 +21,24 @@ namespace Gameplay
 
         private void OnEnable()
         {
-            _characterController.onGround += UpdateSound;
+            _characterController.onGround += UpdateSoundForFall;
+            _characterController.isJump += UpdateSoundForJump;
         }
 
         private void OnDisable()
         {
-            _characterController.onGround -= UpdateSound;
+            _characterController.onGround -= UpdateSoundForFall;
+            _characterController.isJump -= UpdateSoundForJump;
         }
 
-        private void UpdateSound()
+        private void UpdateSoundForFall()
         {
             _audioSorceForFall.Play();
+        }
+
+        private void UpdateSoundForJump()
+        {
+            _audioSorceForJump.Play();
         }
     }
 }
