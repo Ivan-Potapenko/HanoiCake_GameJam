@@ -7,6 +7,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 596261874991360990, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 596261874991360990, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013599299171210056, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_Size.x
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013599299171210056, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_Size.y
+      value: 4.001219
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013599299171210056, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.1901916
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013599299171210056, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5.6013675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013599299171210056, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.8500001
+      objectReference: {fileID: 0}
     - target: {fileID: 8013599299171210058, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -51,9 +79,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8013599299171210059, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6818006648860782953, guid: c6be50d8903b6924cbc01be33047f137, type: 3}
     - target: {fileID: 8013599299171210063, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
       propertyPath: m_Name
-      value: "Top\u0421haracter"
+      value: BottomCharacter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1f7a3616a16b2469263029269d3728, type: 3}
