@@ -59,6 +59,10 @@ namespace Gameplay {
 
         private bool _isGrounded;
 
+        private bool _inLight;
+        public bool InLight => _inLight;
+        public Action changeInLight = delegate { };
+
         [SerializeField]
         private EventDispatcher _deadEventDispatcher;
 
@@ -139,7 +143,12 @@ namespace Gameplay {
         }
 
         private void OnTriggerEnter2D(Collider2D collision) {
+            CheckLightEnterOrExit(collision, inLight: true);
             CheckEnemyEnter(collision);
+        }
+
+        private void OnTriggerExit2D(Collider2D collision) {
+            CheckLightEnterOrExit(collision, inLight: false);
         }
 
         private void CheckEnemyEnter(Collider2D collision) {
@@ -147,6 +156,14 @@ namespace Gameplay {
                 return;
             }
             Die();
+        }
+
+        private void CheckLightEnterOrExit(Collider2D collision, bool inLight) {
+            if (!collision.gameObject.TryGetComponent<CandleLight>(out var candleLight)) {
+                return;
+            }
+            _inLight = inLight;
+            changeInLight.Invoke();
         }
 
         private void Die() {

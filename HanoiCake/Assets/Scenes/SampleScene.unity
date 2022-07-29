@@ -1110,3 +1110,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6827404912a2ee43b2dea3d9469d9f4, type: 3}
+--- !u!1001 &7783711519792065380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300681, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300685, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: m_Name
+      value: NightRat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7783711519118300686, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
+      propertyPath: _topCharacterController
+      value: 
+      objectReference: {fileID: 1191564311}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49fac96fcd96004f87f05856f17e480, type: 3}
