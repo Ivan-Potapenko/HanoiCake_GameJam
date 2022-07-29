@@ -71,6 +71,8 @@ namespace Gameplay {
 
         public Action onDead = delegate { };
 
+        public Action onGround = delegate { };
+
         public Action onCurrentConnectEnviromentChange = delegate { };
         private Environment _currentConnectEnvironment = null;
         private Environment CurrentConnectEnvironment {
@@ -191,6 +193,8 @@ namespace Gameplay {
                     CurrentConnectEnvironment = environment;
                     environment.isGround = true;
                     _isGrounded = true;
+                    //здесь 
+                    onGround?.Invoke();
                     return;
                 }
                 if (TryToStartClimbing(environment, contactPoint.normal)) {

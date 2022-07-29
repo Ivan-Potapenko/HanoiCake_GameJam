@@ -76,7 +76,7 @@ namespace Gameplay
 
         private void EndWalkingAnimation()
         {
-            _animatorLeg1.SetBool("leg1_is_go", false);
+            _animatorLeg1.SetBool("leg_is_go", false);
             _animatorLeg2.SetBool("leg2_is_go", false);
         }
         
