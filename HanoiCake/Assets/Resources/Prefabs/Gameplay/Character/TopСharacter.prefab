@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8319686463889625715}
   - component: {fileID: 2789225231802178313}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 8335982657605240873}
   - component: {fileID: 2585100410243299627}
   - component: {fileID: 6996161056835863816}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "Top\u0421haracter"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,9 +509,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4611548197276562512, guid: 26fdfa873c9efe74baa59da78b8abad8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507080329807697587, guid: 26fdfa873c9efe74baa59da78b8abad8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8861962823411352910, guid: 26fdfa873c9efe74baa59da78b8abad8, type: 3}
       propertyPath: m_Name
       value: legs
+      objectReference: {fileID: 0}
+    - target: {fileID: 8861962823411352910, guid: 26fdfa873c9efe74baa59da78b8abad8, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26fdfa873c9efe74baa59da78b8abad8, type: 3}

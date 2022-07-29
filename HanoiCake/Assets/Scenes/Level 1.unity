@@ -132,11 +132,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7562676147019542385, guid: 26504fdc3cd9c6d4796dce4a19b1f93b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.48
+      value: -43.1
       objectReference: {fileID: 0}
     - target: {fileID: 7562676147019542385, guid: 26504fdc3cd9c6d4796dce4a19b1f93b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.38
+      value: -8.4
       objectReference: {fileID: 0}
     - target: {fileID: 7562676147833758822, guid: 26504fdc3cd9c6d4796dce4a19b1f93b, type: 3}
       propertyPath: m_RootOrder
@@ -188,11 +188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7562676148572403785, guid: 26504fdc3cd9c6d4796dce4a19b1f93b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.1
+      value: -43.1
       objectReference: {fileID: 0}
     - target: {fileID: 7562676148572403785, guid: 26504fdc3cd9c6d4796dce4a19b1f93b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.9
+      value: 11.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26504fdc3cd9c6d4796dce4a19b1f93b, type: 3}
@@ -297,7 +297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3958262856385094489, guid: 5c5de3d55c5e43643bbe8d8145edad36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 53.47
+      value: 46.5
       objectReference: {fileID: 0}
     - target: {fileID: 3958262856385094489, guid: 5c5de3d55c5e43643bbe8d8145edad36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -741,7 +741,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858056772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.71, y: -20.35, z: 0}
+  m_LocalPosition: {x: 43.71, y: -10.8, z: 0}
   m_LocalScale: {x: 18.9371, y: 13.9013, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1645,7 +1645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1901778063
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   _speed: 10
   _accelerationSpeed: 0.1
   _brakingSpeed: 0.08
-  _jumpForce: 20
+  _jumpForce: 23
   _climbJumpForce: 10
   _climbSpeed: -2
   _inAirBrakingSpeed: 0.02

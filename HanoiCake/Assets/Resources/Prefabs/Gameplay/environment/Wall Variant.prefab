@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -4779906032652709691, guid: c6be50d8903b6924cbc01be33047f137, type: 3}
+    - target: {fileID: 7331703736672561593, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7331703736672561594, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
       propertyPath: m_Size.x
       value: 5.6253695
@@ -73,17 +77,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7331703736672561594, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 5.8314238
+      value: 5.5513554
       objectReference: {fileID: 0}
     - target: {fileID: 7331703736672561594, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.6100001
+      value: 2.23
       objectReference: {fileID: 0}
     - target: {fileID: 7331703736672561596, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
       propertyPath: m_Name
       value: Wall Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7331703736672561594, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
-    - {fileID: 7331703736672561595, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc41cfb5b3604a64cbbd3a3322a6adfd, type: 3}
