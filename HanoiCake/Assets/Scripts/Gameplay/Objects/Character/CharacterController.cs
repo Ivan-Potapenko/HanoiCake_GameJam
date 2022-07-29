@@ -16,11 +16,11 @@ namespace Gameplay {
         private Rigidbody2D _rigidbody;
 
         public enum CharacterState {
-            MoveOnGround, //бегает
-            Сlimb, // как при прыжке 
-            StayOnGround, // нормал 
-            MoveInAir, // пряжок 
-            StayInAir, // прыжок
+            MoveOnGround,
+            Сlimb,
+            StayOnGround,
+            MoveInAir,
+            StayInAir,
         }
 
         public enum Direction {

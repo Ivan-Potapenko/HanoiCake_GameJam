@@ -26,18 +26,41 @@ namespace Gameplay
         private void OnEnable()
         {
             _characterController.onStateChange += UpdateAnimation;
+            _characterController.onDirectionChange += UpdateDirestion;
         }
 
         private void OnDisable()
         {
             _characterController.onStateChange -= UpdateAnimation;
+            _characterController.onDirectionChange -= UpdateDirestion;
+        }
+
+        private void UpdateDirestion()
+        {
+
         }
 
         private void UpdateAnimation()
         {
-            switch (_characterController.CurrentState.ToString())
+
+            if (_characterController.CurrentState.ToString() == "MoveOnGround")
             {
-                
+                StartWalkingAnimation();
+                EndJumpingAnimation();
+            }
+
+            if (_characterController.CurrentState.ToString() == "Ñlimb"||
+                _characterController.CurrentState.ToString() == "MoveInAir" ||
+                _characterController.CurrentState.ToString() == "StayInAir")
+            {
+                EndWalkingAnimation();
+                StartJumpingAnimation();
+            }
+
+            if (_characterController.CurrentState.ToString() == "StayOnGround")
+            {
+                EndWalkingAnimation();
+                EndJumpingAnimation();
             }
         }
 
