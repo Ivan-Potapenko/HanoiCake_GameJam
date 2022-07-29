@@ -7,6 +7,7 @@ using UnityEngine;
 namespace Gameplay {
 
     [RequireComponent(typeof(Rigidbody2D))]
+    [RequireComponent(typeof(EventDispatcher))]
     public class CharacterController : MonoBehaviour {
 
         [SerializeField]
@@ -61,8 +62,8 @@ namespace Gameplay {
         [SerializeField]
         private EventDispatcher _deadEventDispatcher;
 
-        [SerializeField]
         private bool _isDead;
+        public bool IsDead => _isDead;
 
         public Action onDead = delegate { };
 
