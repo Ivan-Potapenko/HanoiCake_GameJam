@@ -1,3 +1,4 @@
+using Events;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -56,6 +57,14 @@ namespace Gameplay {
         }
 
         private bool _isGrounded;
+
+        [SerializeField]
+        private EventDispatcher _deadEventDispatcher;
+
+        [SerializeField]
+        private bool _isDead;
+
+        public Action onDead = delegate { };
 
         public Action onCurrentConnectEnviromentChange = delegate { };
         private Environment _currentConnectEnvironment = null;
@@ -127,6 +136,23 @@ namespace Gameplay {
 
         private void OnCollisionExit2D(Collision2D collision) {
             CheckEnvironmentExit(collision);
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision) {
+            CheckEnemyEnter(collision);
+        }
+
+        private void CheckEnemyEnter(Collider2D collision) {
+            if (!collision.gameObject.TryGetComponent<Enemy>(out var enemy)) {
+                return;
+            }
+            Die();
+        }
+
+        private void Die() {
+            _deadEventDispatcher.Dispatch();
+            _isDead = true;
+            onDead.Invoke();
         }
 
         private void CheckEnvironmentExit(Collision2D collision) {
