@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Events;
+using System;
 
 namespace Gameplay
 {
@@ -13,13 +14,32 @@ namespace Gameplay
         [SerializeField]
         private Animator _animatorLeg2;
 
+        private CharacterController _characterController;
+
         private void Start()
         {
             _animatorLeg1 = GetComponent<Animator>();
             _animatorLeg2 = GetComponent<Animator>();
+            _characterController = GetComponent<CharacterController>();
         }
 
+        private void OnEnable()
+        {
+            _characterController.onStateChange += UpdateAnimation;
+        }
 
+        private void OnDisable()
+        {
+            _characterController.onStateChange -= UpdateAnimation;
+        }
+
+        private void UpdateAnimation()
+        {
+            switch (_characterController.CurrentState.ToString())
+            {
+                
+            }
+        }
 
         private void StartWalkingAnimation()
         {
