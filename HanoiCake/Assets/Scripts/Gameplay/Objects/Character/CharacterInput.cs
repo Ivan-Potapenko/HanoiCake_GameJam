@@ -44,11 +44,17 @@ namespace Gameplay {
         }
 
         private void FreezOnBottomCharacter() {
+            if(_bottomCharacterSelected) {
+                Time.timeScale = 0;
+            }
             _bottomCharacterSelected = true;
             _freez = true;
         }
 
         private void FreezOnTopCharacter() {
+            if (!_bottomCharacterSelected) {
+                Time.timeScale = 0;
+            }
             _bottomCharacterSelected = false;
             _freez = true;
         }

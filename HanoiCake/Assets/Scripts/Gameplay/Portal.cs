@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Portal : MonoBehaviour
@@ -8,13 +6,13 @@ public class Portal : MonoBehaviour
     public bool IsActivated => _isActivated;
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        if(collision.gameObject.TryGetComponent<CharacterController>(out var characterController)) {
+        if (collision.gameObject.tag == "Player") {
             _isActivated = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
-        if (collision.gameObject.TryGetComponent<CharacterController>(out var characterController)) {
+        if (collision.gameObject.tag == "Player") {
             _isActivated = false;
         }
     }
