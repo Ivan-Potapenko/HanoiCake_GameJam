@@ -46,25 +46,38 @@ namespace Gameplay
 
         private void UpdateAnimation()
         {
-          
-            if (_characterController.CurrentState.ToString() == "MoveOnGround")
+            switch (_characterController.CurrentState)
             {
-                StartWalkingAnimation();
-                EndJumpingAnimation();
-            }
-
-            if (_characterController.CurrentState.ToString() == "Ñlimb"||
-                _characterController.CurrentState.ToString() == "MoveInAir" ||
-                _characterController.CurrentState.ToString() == "StayInAir")
-            {
-                EndWalkingAnimation();
-                StartJumpingAnimation();
-            }
-
-            if (_characterController.CurrentState.ToString() == "StayOnGround")
-            {
-                EndWalkingAnimation();
-                EndJumpingAnimation();
+                case CharacterController.CharacterState.StayOnGround:
+                    {
+                        EndWalkingAnimation();
+                        EndJumpingAnimation();
+                        break;
+                    }
+                case CharacterController.CharacterState.MoveOnGround:
+                    {
+                        StartWalkingAnimation();
+                        EndJumpingAnimation();
+                        break;
+                    }
+                case CharacterController.CharacterState.StayInAir:
+                    {
+                        EndWalkingAnimation();
+                        StartJumpingAnimation();
+                        break;
+                    }
+                case CharacterController.CharacterState.MoveInAir:
+                    {
+                        EndWalkingAnimation();
+                        StartJumpingAnimation();
+                        break;
+                    }
+                case CharacterController.CharacterState.Ñlimb:
+                    {
+                        EndWalkingAnimation();
+                        StartJumpingAnimation();
+                        break;
+                    }
             }
         }
 
